@@ -1,5 +1,6 @@
 .Pastel {
-    font-size: 50px;
+    display: flex;
+    font-size: 30px;
     text-align: center;
     background-color: #3700ff88;
 }
