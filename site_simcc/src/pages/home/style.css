@@ -1,21 +1,29 @@
 .botoes {
     width: 100%;
     margin: 0 auto;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
 }
-button {
+
+.imagem{
     border-radius: 30px;
     background-color: gray;
     display: flex;
-    flex-direction: column;
-    height: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
     border: none;
     font-weight: bold;
     cursor: pointer;
     color: black;
     font-size: 15px;
     padding: 10px;
-    margin-bottom: 1%;
+
 }
 & button:hover {
     opacity: 0.8;
@@ -27,6 +35,19 @@ button {
     justify-content: center;
     margin-top: 30px;
 }
-.titulo {
-    
+
+.introducao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.esquerda {
+    background-color: gray;
+    font-size: 10px;
+    width: 255px;
+    height: 10%;
 }
