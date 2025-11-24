@@ -1,15 +1,12 @@
 import './style.css'
-
+import api from '../../../src/services/api'
+  
 function Home() {
 
   return (
 
     <>
-
-    <div className='esquerda'>
-      <h1>e pra ter algo Aqui</h1>
-    </div>
-
+            <div className='tudo_direita'>
     <div className='Centro'>
       <h1 className='titulo'>Vitrine SIMCC</h1>
     </div>
@@ -31,6 +28,7 @@ function Home() {
         <button className='imagem' type='button'>Indicações Geográficas</button>
     </div>
 
+            </div>
     </>
   )
 }
